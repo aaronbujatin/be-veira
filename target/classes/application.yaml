@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/dbveira
+    url: jdbc:mysql://containers-us-west-123.railway.app:6716/railway
     username: root
-    password: 0910886381018
+    password: ApYLfvgX5d6rtZLCLUdn
   jpa :
     database-platform : org.springframework.orm.jpa.vendor.Database.MYSQL
     generate-ddl : true
