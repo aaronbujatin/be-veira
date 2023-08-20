@@ -22,6 +22,8 @@ public class OrderItem {
     private int quantity;
     private Long productId;
     private BigDecimal unitPrice;
+    private String imageUrl;
+    private String productName;
 
     @JsonIgnore
     @ManyToOne(cascade = CascadeType.ALL)
